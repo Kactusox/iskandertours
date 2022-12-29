@@ -1,0 +1,100 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Laila&family=Poppins&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAF8ED;
+    font-family: 'Laila', sans-serif;
+}
+/* logo */
+#logo img {
+    height: 100px;
+    width: 100px;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    /* margin-left: -100px; */
+}
+header ul li {
+    margin-left: 25px;
+}
+header a {
+    font-family: 'Laila', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5B5F62;
+    text-decoration: none;
+    padding-bottom: 3px;
+}
+header a:hover {
+    color: orangered;
+}
+
+/* Navbar */ 
+nav {
+    margin: auto;
+    margin-top: 0px ;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Telegram Button  */
+.telegram {
+    padding: 10px;
+    border: 1px solid salmon;
+    border-radius: 40px;
+    width: 170px;
+    height: 54px;
+    background-color: transparent;
+}
+/* Main Page */
+.main {
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    width: 80%; 
+}
+.start-page {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.main-text {
+    width: 577px;
+    height: 460px;
+}
+.main-text h1 {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 86px;
+    color: #2D3134;
+}
+.main-text p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #5B5F62;
+}
+
+/* CEO img */
+.main-img p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Laila', sans-serif;
+}
+.main-img img  {
+    width: 400px;
+    height: 500px;
+    border-radius: 100px;
+}
