@@ -129,6 +129,6 @@ nav {
     height: 230px;
     border-radius: 85px;
 }
-.beach {
+.beach, .desert , .pyramid, .tower, .temple , .mountain {
     text-align: center;
 }
